@@ -131,6 +131,38 @@
       "rating": 3.92,
       "stock": 60,
       "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"
+    },
+    {
+      "id": 9001,
+      "title": "Super Popular Sofa",
+      "brand": "Must Have",
+      "category": "furniture",
+      "price": 3499.99,
+      "discountPercentage": 14.4,
+      "rating": 3.92,
+      "stock": 0,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"
+    },
+    {
+      "id": 9002,
+      "title": "Unbranded Sofa",
+      "category": "furniture",
+      "price": 499.99,
+      "discountPercentage": 24.4,
+      "rating": 3.00,
+      "stock": 60,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"
+    },
+    {
+      "id": 12,
+      "title": "Sofa with a name so long that nobody willl read it Sofa with a name so long that nobody willl read it Sofa with a name so long that nobody willl read it",
+      "brand": "Long Name",
+      "category": "furniture",
+      "price": 1499.99,
+      "discountPercentage": 10.4,
+      "rating": 3.10,
+      "stock": 6,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"
     }
   ],
   "total": 194,
