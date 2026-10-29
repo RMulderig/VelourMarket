@@ -2,7 +2,7 @@ export function ProductCardSkeleton() {
   return (
     <div
       aria-hidden="true"
-      className="flex animate-pulse flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm"
+      className="flex animate-pulse flex-col overflow-hidden rounded-2xl border-2 border-black bg-white shadow-sm"
     >
       <div className="aspect-square bg-stone-200" />
       <div className="flex flex-1 flex-col gap-3 p-5">

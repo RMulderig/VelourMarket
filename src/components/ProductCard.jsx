@@ -39,7 +39,7 @@ export function ProductCard({ product, onAddToCart }) {
   const discountedPrice = getDiscountedPrice(price, discountPercentage)
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+    <article className="group flex flex-col overflow-hidden rounded-2xl border-2 border-black bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
       <div className="relative aspect-square overflow-hidden bg-stone-100">
         <img
           src={thumbnail}
@@ -48,8 +48,8 @@ export function ProductCard({ product, onAddToCart }) {
           className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
         />
         {hasDiscount && (
-          <span className="absolute left-3 top-3 rounded-full bg-rose-700 px-2.5 py-1 text-xs font-semibold text-white">
-            -{Math.round(discountPercentage)}%
+          <span className="absolute right-3 top-3 rounded-full bg-rose-700 px-2.5 py-1 text-xs font-semibold text-white">
+            DEAL! -{Math.round(discountPercentage)}%
           </span>
         )}
       </div>
