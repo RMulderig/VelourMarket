@@ -32,6 +32,14 @@ function RatingStars({ rating }) {
   )
 }
 
+/**
+ * Shows one product as a card.
+ *
+ * @param {Object} props
+ * @param {import('../../types/product.js').Product} props.product  The product to show
+ * @param {(id: number) => void} props.onAddToCart  Called with the product's id when "Add to cart" is clicked
+ * @param {string} [props.variant]  "default" or "compact"; "default" if not given
+ */
 export function ProductCard({ product, onAddToCart }) {
   const { id, title, brand, category, price, discountPercentage, rating, stock, thumbnail } = product
   const hasDiscount = discountPercentage > 0
